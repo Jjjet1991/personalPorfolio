@@ -53,7 +53,7 @@ this.innerHTML = `
 </li>
 
 <li class="nav-item">
-<a class="nav-link" style="color:#f4f9f9;" href="./web-430/web-430.html">DevOps</a>
+<a class="nav-link" style="color:#f4f9f9;" href="../web430/web-430.html">DevOps</a>
 </li>
 
 </ul>
