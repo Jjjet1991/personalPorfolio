@@ -1,0 +1,224 @@
+<!--
+=====================================================
+; Title: Personal Portfolio
+; Author: Jourdan Neal
+; Date 16 May 2021
+; Modified By: Jourdan Neal
+; Description: Personal Portfolio
+=====================================================
+*/-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jourdan Neal</title>
+  <link rel="stylesheet" href="site.css">
+
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: 100px;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<header-component></header-component>
+
+<!--Container for projects-->
+<div class="container">
+  <!--Card for content-->
+  <div class="card" style="width:600px;">
+    <div class="card-title">API Testing</div>
+    <div class="card-content">
+
+      <!--!st gallery image-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-findAllComposers-SOAP.JPG">
+          <img src="api-testing/web-420-findAllComposers-SOAP.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">findAllComposers<br> SOAP UI testing</div>
+      </div>
+      <!--2nd gallery image-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-findComposerId.JPG">
+          <img src="api-testing/web-420-findComposerId.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">findComposerById <br> Swagger Testing</div>
+      </div>
+      <!--3rd gallery image-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-createComposer-swagger.JPG">
+          <img src="api-testing/web-420-createComposer-swagger.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">createComposer <br> Swagger</div>
+      </div>
+      <!--4th gallery image, week 5-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-findPerson-SOAP.JPG">
+          <img src="api-testing/web-420-findPerson-SOAP.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Person API findAllPersons<br> SoapUI</div>
+      </div>
+      <!--5th gallery image, week 5-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-createPerson-Swagger.JPG">
+          <img src="api-testing/web-420-createPerson-Swagger.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Person API createPerson <br> Swagger</div>
+      </div>
+
+      <!--week-6 gallery image 1-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-6.2 Inspector 1.JPG">
+          <img src="api-testing/web-420-6.2 Inspector 1.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Create User Duplicate username<br> Swagger</div>
+      </div>
+      <!--week-6 gallery image 2-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-6.2 Inspector 2.JPG">
+          <img src="api-testing/web-420-6.2 Inspector 2.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Create User <br> User created<br> Swagger</div>
+      </div>
+
+      <!--week-6 gallery image 3-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-6.2 Soap 1.JPG">
+          <img src="api-testing/web-420-6.2 Soap 1.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Login <br> User logged in<br> SOAP UI</div>
+      </div>
+
+      <!--week-6 gallery image 4-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-6.2 Soap 2.JPG">
+          <img src="api-testing/web-420-6.2 Soap 2.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Login<br>Invalid entry<br> SOAP UI</div>
+      </div>
+
+      <!--week-7 gallery image 1-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-createCustomer.JPG">
+          <img src="api-testing/web-420-createCustomer.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Week 7<br>createCustomer<br> SOAP UI</div>
+      </div>
+
+      <!--week-7 gallery image 2-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-createInvoiceByUserName.JPG">
+          <img src="api-testing/web-420-createInvoiceByUserName.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">createInvoice<br>ByUserName<br> SWAGGER</div>
+      </div>
+
+      <!--week-7 gallery image 3-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-findAllInvoicesByUserName.JPG">
+          <img src="api-testing/web-420-findAllInvoicesByUserName.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">findAllInvoices<br>ByUserName<br> SOAP UI</div>
+      </div>
+
+      <!--week-8 gallery image 1-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-8.2 Swagger.JPG">
+          <img src="api-testing/web-420-8.2 Swagger.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">updateComposer<br>ById<br> SWAGGER</div>
+      </div>
+
+      <!--week-8 gallery image 2-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-8.2 Swagger(2).JPG">
+          <img src="api-testing/web-420-8.2 Swagger(2).JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Updated Composer<br>ById<br/> SWAGGER</div>
+      </div>
+      <!--week-8 gallery image 4-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-8.2 SOAP.JPG">
+          <img src="api-testing/web-420-8.2 SOAP.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">deleteComposer<br>ById<br/> SOAP UI</div>
+      </div>
+      <!--week-8 gallery image 4-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-8.2 SOAP(2).JPG">
+          <img src="api-testing/web-420-8.2 SOAP(2).JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Display record<br>to be deleted<br/> SOAP</div>
+      </div>
+
+      <!--week-8 gallery image 5-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/web-420-8.2 SOAP(3).JPG">
+          <img src="api-testing/web-420-8.2 SOAP(3).JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">null value<br>recorded deleted<br/> SOAP</div>
+      </div>
+
+      <!--week-9 gallery image 1-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/week-9-test1-findAllTeams.JPG">
+          <img src="api-testing/week-9-test1-findAllTeams.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc"><br>Week 9<br>findAllTeams<br/></div>
+      </div>
+      <!--week-9 gallery image 2-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/week-9-test1-assignplayertoteam1.JPG">
+          <img src="api-testing/week-9-test1-assignplayertoteam1.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Week 9<br>assignPlayers<br/>ToTeam</div>
+      </div>
+      <!--week-9 gallery image 3-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/week-9-test1-findallplayersbyteamid.JPG">
+          <img src="api-testing/week-9-test1-findallplayersbyteamid.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Week 9<br>findAllPlayers<br>ByTeamId</div>
+      </div>
+
+      <!--week-9 gallery image 4-->
+      <div class="gallery">
+        <a target="_blank" href="api-testing/week-9-test1-deleteteambyId.JPG">
+          <img src="api-testing/week-9-test1-deleteteambyId.JPG" alt="" width="600" height="400">
+        </a>
+        <div class="desc"><br>Week 9<br>deleteTeamById<br/></div>
+      </div>
+
+      
+
+    </div>
+  </div>
+
+
+<footer-component></footer-component>
